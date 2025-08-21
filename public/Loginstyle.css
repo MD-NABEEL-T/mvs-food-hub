@@ -1,3 +1,4 @@
+/*Loginstyle.css*/
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -50,3 +51,9 @@ a {
     text-decoration: none;
     color: #4285F4;
 }
+
+/* Helpers for signup page */
+.login-box { max-width: 360px; width: 92%; }
+.form-note { font-size: 0.9rem; color: #666; margin-top: 6px; }
+.error { color: #e53935; font-size: 0.9rem; min-height: 1.2em; }
+
