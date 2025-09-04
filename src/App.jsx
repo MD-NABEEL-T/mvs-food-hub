@@ -48,6 +48,7 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './Test_home';
 import CookProfile from './CookProfile';
 import DishOverview from './DishOverview';
+import CookHomepage from "./CookHomepage";
 
 function App() {
   return (
@@ -55,6 +56,8 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/cook/:id" element={<CookProfile />} />
       <Route path="/dish/:id" element={<DishOverview />} />
+      <Route path="/cook-home" element={<CookHomepage />} />
+
     </Routes>
   );
 }
